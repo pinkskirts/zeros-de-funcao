@@ -2,7 +2,7 @@ import math
 
 class ZeroFuncao:
     def __init__ (self, expr, a, b, err):
-        self.expr = expr
+        self.expr = expr;
         self.a = a;
         self.b = b;
         self.err = err;
@@ -30,7 +30,7 @@ class ZeroFuncao:
                         b.append(x[i]);
             print("===============================");
             print("X0:",i+1," = ", x[i]);
-            print("[ ",a[i+1]," , ",b[i+1]," ]");
+            print("[ ",a[i]," , ",b[i]," ]");
             print("Erro <= ", err[i+1]);
             print("===============================");
             print("\n");
